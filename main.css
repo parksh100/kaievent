@@ -2,21 +2,23 @@
 
 .eventMain{
     width: 100%;
+}
+
+.video{
     position: relative;
-
-
 }
 
 .overlay{
     background-color: rgb(206, 185, 185);
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    width: 790px; 
-    margin-top: -300px;
-    height: 500px;
-    margin-left: auto;
+    top: 750px;
+    left: 280px;
+    z-index: 1;
+    width: 700px;
+    height: 370px;
+    margin-left: 320px;
     margin-right: auto;
+    opacity: 0;
+    cursor: pointer;
     
 }
