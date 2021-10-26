@@ -62,3 +62,84 @@
     cursor: pointer;
     
 }
+
+.overlayHomepageImg2{
+    background-color: rgb(206, 185, 185);
+    position: absolute;
+    top: 690px;
+    left: 320px;
+    z-index: 1;
+    width: 650px;
+    height: 300px;
+    margin-left: 320px;
+    margin-right: auto;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+
+.overlayHomepageImg1{
+    background-color: rgb(206, 185, 185);
+    position: absolute;
+    top: 310px;
+    left: 320px;
+    z-index: 1;
+    width: 650px;
+    height: 300px;
+    margin-left: 320px;
+    margin-right: auto;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+
+
+.mainPage{
+    position: relative;
+}
+
+.overlayMainpage{
+    background-color: rgb(206, 185, 185);
+    position: absolute;
+    top: 920px;
+    left: 5px;
+    z-index: 1;
+    width: 165px;
+    height: 50px;
+    margin-left: 320px;
+    margin-right: auto;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+
+.overlayMainpageFinacebtn{
+    background-color: rgb(120, 107, 197);
+    position: absolute;
+    top: 920px;
+    left: 5px;
+    z-index: 1;
+    width: 165px;
+    height: 50px;
+    margin-left: 560px;
+    margin-right: auto;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+
+.overlayMainpageVmsbtn{
+    background-color: rgb(42, 216, 71);
+    position: absolute;
+    top: 920px;
+    left: 5px;
+    z-index: 1;
+    width: 165px;
+    height: 50px;
+    margin-left: 810px;
+    margin-right: auto;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+

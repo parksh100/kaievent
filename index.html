@@ -21,17 +21,25 @@
         </div>
     </nav>
     <div class="container">
-        <div class="mainpage mt-5 text-center">
+        <div class="mainPage mt-5 text-center">
             <div class="eventMain">
-                <img src="./img/mainpage.png" alt="">
+                <img src="./img/mainpage_final.png" alt="">
             </div>
-            <div class="d-grid gap-2 col-6 mx-auto mt-2">
-                <button onclick="location.href='https://forms.office.com/r/u1FfayTwK0'" class="btn btn-primary"
-                    type="button">문의하기</button>
-            </div>
+            <a href="#homePage">
+                <div class="overlayMainpage">
+                </div>
+            </a>
+            <a href="#finance">
+                <div class="overlayMainpageFinacebtn">
+                </div>
+            </a>
+            <a href="#vms">
+                <div class="overlayMainpageVmsbtn">
+                </div>
+            </a>
 
         </div>
-        <div class="homepage1 text-center" mt-5 text-center">
+        <div class="homepage1 text-center" mt-5 text-center" id="homePage">
             <div class="eventMain">
                 <img src="./img/homepage1.png" alt="">
             </div>
@@ -48,13 +56,22 @@
         <div class="eventMain">
             <img src="./img/homepage3.png" alt="">
         </div>
+        <a href="https://axislounge.netlify.app/" target="_blank">
+            <div class="overlayHomepageImg1">
+            </div>
+        </a>
+
+        <a href="https://epic-lamarr-96895d.netlify.app/" target="_blank">
+            <div class="overlayHomepageImg2">
+            </div>
+        </a>
         <a href="https://forms.office.com/r/u1FfayTwK0" target="_blank">
             <div class="overlayHomepageBtn">
             </div>
         </a>
     </div>
 
-    <div class="finance1 mt-5 text-center">
+    <div class="finance1 mt-5 text-center" id="finance">
         <div class="eventMain">
             <img src="./img/finance1.png" alt="">
         </div>
@@ -68,7 +85,7 @@
             </div>
         </a>
     </div>
-    <div class="mainpage mt-5 text-center">
+    <div class="mainpage mt-5 text-center" id="vms">
         <div class="eventMain">
             <img src="./img/vms1.png" alt="">
         </div>
